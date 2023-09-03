@@ -4,41 +4,43 @@ In the context of verification in digital design and electronic systems, a "Laye
 
 A layered testbench typically consists of several distinct layers, each serving a specific purpose and providing a level of abstraction for verification tasks. The layers often include:
 
-Test Scenario Layer:
+## Test Scenario Layer:
 
 This is the top layer where test scenarios or test cases are defined.
 Test scenarios represent specific use cases or operational modes that the design should be tested against.
 Test generators in this layer create stimuli for the design, including inputs, clock signals, and control sequences.
 Transaction Layer:
 
-The transaction layer focuses on abstract representations of data transactions or communication between different modules or interfaces within the design.
+## The transaction layer focuses on abstract representations of data transactions or communication between different modules or interfaces within the design.
 Transactions typically include data transfers, commands, and responses.
 This layer abstracts the actual signal-level details and concentrates on high-level data transactions.
-Functional Layer:
+
+## Functional Layer:
 
 The functional layer is responsible for driving the transactions into the design and monitoring its behavior.
 It includes the testbench components that interact with the design under test (DUT).
 Monitor components observe the DUT's responses and capture any discrepancies from expected behavior.
-Scoreboard Layer:
+
+## Scoreboard Layer:
 
 The scoreboard layer performs result checking and validation.
 It compares the actual DUT outputs or behavior against expected results or reference models.
 If discrepancies are detected, the scoreboard raises alerts or generates error reports.
-Interface Layer:
+
+##Interface Layer:
 
 This layer abstracts the communication interfaces used by the design, such as communication protocols or memory interfaces.
 Interface components handle protocol-specific tasks, enabling the testbench to communicate effectively with the DUT.
-Transaction Generation Layer:
+
+## Transaction Generation Layer:
 
 Transaction generators in this layer create specific transactions and sequences to stimulate the DUT.
 These generators often include protocol-specific sequences for complex interface testing.
-Clock and Reset Control Layer:
+
+## Clock and Reset Control Layer:
 
 This layer manages the clock and reset signals for the DUT.
 It ensures proper initialization and synchronization during testing.
-
-
-
 
 
 
