@@ -1,6 +1,13 @@
-# Layered-Testbench-arbiter
+# 🚩 LAYERED TESTBENCH - ARBITER 🚩
 
-In the context of verification in digital design and electronic systems, a "Layered Testbench" refers to a structured approach for organizing the components and functions of a testbench. The primary goal of a layered testbench is to systematically and efficiently verify the functionality of a digital design, such as an integrated circuit or a hardware module, while ensuring ease of maintenance and scalability.
+<p align="center">
+  <img src="https://github.com/Tech-mohankrishna/Layered-Testbench-arbiter/assets/57735263/1e3153b2-cfe0-41a1-8089-cfd328dc8bf8" >
+</p>
+
+
+
+
+Layered Testbench refers to a structured approach for organizing the components and functions of a testbench. The primary goal of a layered testbench is to systematically and efficiently verify the functionality of a digital design, such as an integrated circuit or a hardware module, while ensuring ease of maintenance and scalability.
 
 A layered testbench typically consists of several distinct layers, each serving a specific purpose and providing a level of abstraction for verification tasks. The layers often include:
 
@@ -9,9 +16,10 @@ A layered testbench typically consists of several distinct layers, each serving 
 This is the top layer where test scenarios or test cases are defined.
 Test scenarios represent specific use cases or operational modes that the design should be tested against.
 Test generators in this layer create stimuli for the design, including inputs, clock signals, and control sequences.
-Transaction Layer:
 
-## The transaction layer focuses on abstract representations of data transactions or communication between different modules or interfaces within the design.
+## Transaction Layer:
+
+The transaction layer focuses on abstract representations of data transactions or communication between different modules or interfaces within the design.
 Transactions typically include data transfers, commands, and responses.
 This layer abstracts the actual signal-level details and concentrates on high-level data transactions.
 
